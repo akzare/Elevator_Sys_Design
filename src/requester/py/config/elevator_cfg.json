@@ -1,0 +1,38 @@
+{
+  "__cfg_file_info__": {
+    "__name__": "sample_cfg",
+    "__date__": "July 24 2020",
+    "__author__": "Armin Zare Zadeh",
+    "__rev__": "0.1",
+    "__desc__": "Sample Configuration Model"
+  },
+  "__general__": {
+    "__sim_timestep__": 1000,
+    "__log_file_name__": "C:\\log\\1.log"
+  },
+  "__network__": {
+    "__type__": "TCP/IP",
+    "__addr__": "127.0.0.1",
+    "__port__": 8080,
+    "__packet_header_len__": 10,
+    "__packet_payload_req_len__": 13,
+    "__packet_payload_status_len__": 13
+  },
+  "__usr_request__": {
+    "__call__": 1,
+    "__go__": 2,
+    "__status__": 3
+  },
+  "__usr_dir__": {
+    "__up__": 1,
+    "__down__": 2
+  },
+  "__move_status__": {
+    "__moving__": 1,
+    "__stop__": 2
+  },
+  "__test_case__": {
+    "__call__": {"1":[5, 1000, 53, 2, 10, 3, 1, 57]},
+    "__go__": {"1":[5, 1000, 57, 2, 20, 5]}
+  }
+}
